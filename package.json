@@ -1,0 +1,29 @@
+{
+  "name": "isaidthis",
+  "version": "0.0.0",
+  "description": "This is a proof-of-existance contract you can use to prove something existed at least as recently as the block it was recorded in. I called it \"ISaidThis\" because I wanted to be able to prove in the future that I had conveyed a message to somebody at an earlier date without revealing what that message was.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browserify -t [ babelify --presets [ react ] ] app/public/app.js -o app/public/bundle.js && http-server app/public",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skmgoldin/ISaidThis.git"
+  },
+  "author": "Mike Goldin <mike.goldin@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skmgoldin/ISaidThis/issues"
+  },
+  "homepage": "https://github.com/skmgoldin/ISaidThis#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.23.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
+    "http-server": "^0.9.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "truffle-contract": "^1.0.0"
+  }
+}
