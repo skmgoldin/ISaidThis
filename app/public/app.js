@@ -14,7 +14,7 @@ ISaidThis.deployed()
 })
 .then(function(response) {
   ReactDOM.render(
-    <h1>Hello World</h1>,
+    <h1>{response.toString()}</h1>,
     document.getElementById('root')
   );
 })
